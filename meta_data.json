@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "containers",
+        "2": "media",
+        "3": "social network",
+        "4": "video"
+    },
+    "demo_page": "https://beautiful-clock-demo.bubbleapps.io/version-test",
+    "description": "[🚀 WU Optimized] Add a beautiful, responsive and resizeable clock in your application. Reliable and esay to use.\nWorks on all devices, with pure CSS & JavaScript (no additional libraries).\n\n✔️ FEATURES \n\n- Good-looking clock\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/beautiful-clock-plugin-for-bubble-1709852384157x539494463657446600\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-q.cdn.bubble.io/f1709852301426x592305182788231300/Screenshot%202024-03-08%20at%2001.57.47.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Beautiful Clock",
+    "plugin_instructions": "======= SETUP ======= \n\n1. Drag the \"Beautiful Clock\" element inside your page\n2. That's all!"
+}

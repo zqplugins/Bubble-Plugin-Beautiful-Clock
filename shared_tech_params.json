@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAE": {
+            "name": "style",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1654346562451x695750900691840500/style.css"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 3,
+        "use_jquery": true
+    }
+}

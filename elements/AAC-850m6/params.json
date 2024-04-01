@@ -1,0 +1,30 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 300,
+        "width": 300
+    },
+    "display": "Beautiful Clock",
+    "fields": {
+        "AAF": {
+            "caption": "In order for the clock element to be displayed correctly, the height and width must be the same.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "AAG": {
+            "caption": "For example: height: 300px, width: 300px.",
+            "editor": "Label",
+            "name": "info_field_2",
+            "rank": 1
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}

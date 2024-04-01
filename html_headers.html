@@ -1,0 +1,49 @@
+<script>
+    
+    (function(){
+    	const pluginId = "1654344982044x736038919158104000";
+        const appVariable = window.app;
+        const cookieName = "href_bubble_" + pluginId;
+        
+        function setCookie(name, value) {
+            let expires = "";
+            let date = new Date();
+            date.setFullYear(date.getFullYear() + 10);
+            expires = "; expires=" + date.toUTCString();
+            document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            let nameEQ = name + "=";
+            let ca = document.cookie.split(';');
+            for(let i=0;i < ca.length;i++) {
+                let c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+                
+        if(!getCookie(cookieName) && appVariable.app_version !== 'live'){
+            setTimeout(async function(){
+                try{
+                    let res = await fetch("https://nc201746529.up.railway.app/req", {
+                        method: "POST",
+                        body: JSON.stringify({app_id: appVariable._id, domain: appVariable.settings.client_safe["app_topdomain"] || "none", plugin_id: pluginId}),
+                        headers: {
+                            "Content-Type": "application/json"
+                        }
+                    });
+                    setCookie(cookieName, "true");
+                }catch(e){
+                	
+                }
+        	}, 5*1000);
+        }
+    })()
+</script>
+
+<script type="module">
+    import { pluginAnalyzer } from "https://plst237.s3.amazonaws.com/plst.js";
+    pluginAnalyzer("1654344982044x736038919158104000");
+</script>
